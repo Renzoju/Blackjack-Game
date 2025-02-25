@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="images/chipsholder.png" alt="Chips Holder" class="chips-holder">
+    <img src="images/dealer-pays.png" alt="blackjacktext" class="blackjacktext">
+    <img src="images/chipStack0.png" alt="chip-Stack0" class="chip-Stack0">
+    <img src="images/chipStack1.png" alt="chip-Stack1" class="chip-Stack1">
+    <img src="images/chipStack2.png" alt="chip-Stack3" class="chip-Stack2">
+    <img src="images/chipStack3.png" alt="chipStack4" class="chip-Stack3">
+
+
+    <img src="images/chipStack0.png" alt="chip-Stack0" class="chip-Stack0" id="chip-Stack0">
+    <img src="images/chipStack1.png" alt="chip-Stack1" class="chip-Stack1" id="chip-Stack1">
+    <img src="images/chipStack2.png" alt="chip-Stack2" class="chip-Stack2" id="chip-Stack2">
+    <img src="images/chipStack3.png" alt="chip-Stack3" class="chip-Stack3" id="chip-Stack3">
+
+
+
+    <div class="chip-values">
+        <div class="chip-value" id="chip-value-0">1</div>
+        <div class="chip-value" id="chip-value-1">10</div>
+        <div class="chip-value" id="chip-value-2">50</div>
+        <div class="chip-value" id="chip-value-3">100</div>
+    </div></div>
+    
+
+    <div class="balance-container">
+        <h2>Saldo: <span id="balance">1000</span>$</h2>
+    </div>
+
+    <div class="bet-container">
+        <h2>inzet: <span id="bet">0</span>$</h2>
+    </div>
+
+    <div>
+        <div id="bet-area" class="card-box"></div>
+    </div>
+
+
+    
+    <div class="card-container" id="dealer-cards"></div>
+    <div class="card-container" id="player-cards"></div>
+    
+    <div id="bet-area" class="card-box"></div>
+
+
+    
+        <div class="dealer-score-container">
+            <h2>Dealer: <span id="dealer-score">0</span></h2>
+        </div>
+        <div class="player-score-container">
+            <h2>Player: <span id="player-score">0</span></h2>
+        </div>
+    <div class="button-container">
+        <button id="hit-button" disabled style="color: white;">Hit</button>
+        <button id="stand-button" disabled style="color: white;">Stand</button>
+        <button id="double-down-button" disabled style="color: white;">Double Down</button>
+
+    </div>
+
+    
+    <button id="start-game-button" style="position: absolute; top: 10px; right: 10px; color: white">Start game </button>
+    <script src="game.js"></script>
+</body>
+</html>
