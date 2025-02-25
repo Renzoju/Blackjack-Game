@@ -19,3 +19,7 @@ Clone the repository and run the game yourself! Feedback and contributions are a
 ---
   
 **💻 Made with passion for coding & card games!**  
+
+###
+
+![blackjack](https://github.com/user-attachments/assets/17c454d9-3505-4712-876c-3ba8c406af36)
